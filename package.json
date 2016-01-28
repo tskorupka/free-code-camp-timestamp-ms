@@ -1,0 +1,12 @@
+{
+  "name": "free-code-camp-timestamp-ms",
+  "version": "0.0.0",
+  "description": "free-code-camp-timestamp-ms",
+  "main": "server.js",
+  "repository": "",
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.11.1"
+  }
+}
