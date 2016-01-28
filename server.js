@@ -14,6 +14,7 @@ app.get('/:time', function (request, response) {
         date = new Date(rawTime);
     }
     
+    response.setHeader('Content-Type', 'application/json');
     response.send(JSON.stringify({
         unix: date.getTime() / 1000,
         natural: moment(date).format('MMMM D, YYYY') === 'Invalid date' ? null : moment(date).format('MMMM D, YYYY')
